@@ -1,0 +1,111 @@
+/* Header */
+
+.row {
+    margin: 0;
+  }
+  
+  .sidebar-header {
+    .logo-box {
+      max-height: 60px;
+      padding: 16px;
+      font-family: $font-family-lato;
+      font-size: 20px;
+      color: $white-color;
+      font-weight: $bold-font-weight;
+    }
+  }
+  
+  .btn-close {
+    text-align: center;
+    padding: 20px 0 0 0;
+    max-height: 60px;
+    display: none;
+  
+    a {
+      text-decoration: none;
+      color: $paragraph-color;
+    }
+  
+    i {
+      font-size: 13px;
+    }
+  }
+  
+  .btn-close:hover {
+    background-color: #555;
+  
+    a {
+      color: $white-color;
+    }
+  }
+  
+  /* Navigation */
+  
+  .sidebar-nav {
+    a {
+      display: block;
+      color: $white-color;
+      font-size: 16px;
+      font-weight: $light-font-weight;
+      padding: 20px 20px;
+      text-decoration: none;
+    }
+
+    img {
+        max-height: 25%;
+        max-width: 25%;
+        padding: 0 15px 0 10px;
+        color: $white-color;
+    }
+  
+    img:before {
+        width: 3em;
+    }
+  
+    a.active {
+      background-color: $orange-color;
+      color: $white-color;
+    }
+  
+    a:hover:not(.active) {
+      background-color: $sidebar-background-hover;
+      color: $white-color;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .btn-close {
+      display: inline;
+    }
+  
+  }
+
+  /*Profile*/
+  .sidebar-profile  {
+        position: relative;
+        display: flex;
+        border-top: 1px solid;
+        justify-content: space-evenly;
+        img {
+            margin-top: 20px;
+            font-size: 50px;
+            border-radius: 50%;
+        }
+        p {
+        margin-top: 35px;
+        color: $link-color;
+        }
+    }
+
+  
+
+  .sidebar-profile .badge {
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    left: 65px;
+    padding: 7px 7px;
+    border-radius: 50%;
+    background: green;
+    color: $white-color;
+  }
