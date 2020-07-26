@@ -1,0 +1,67 @@
+
+
+.btn__container {
+    display: flex;
+    padding: 20px 0 40px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    border: 0;
+    border-radius: 4px;
+    color: $white-color;
+    margin: auto;
+    width: auto;
+    padding: 0 20px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: $font-family-lato;
+    font-size: 18px;
+    font-weight: $light-font-weight;
+    background-position: 100% 0;
+    padding-top: 9px;
+  }
+  
+  .btn__orange {
+    background-color: $orange-color;
+  
+  }
+  
+  .btn__orange:hover {
+    background-color: $btn-hover-color;
+  }
+  
+  .btn__grey {
+    background-color: $btn-cancel-color;
+  }
+  
+  .btn__grey:hover {
+    background-color: $paragraph-color;
+  }
+  
+  .btn__disabled {
+    padding-left: 10px;
+    background-color: $btn-cancel-color;
+    
+  
+    i {
+      font-size: 12px;
+    }
+  
+    [class*="icon-"]:before {
+      width: 3em;
+    }
+  }
+  
+  .btn__square {
+    padding: 10px 0;
+    width: 40px;
+    
+  
+  
+    [class*="icon-"]:before {
+      width: auto;
+      text-align: center;
+    }
+  }

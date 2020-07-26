@@ -1,0 +1,31 @@
+.chart__container {
+    margin: auto;
+    max-width: 800px;
+    padding: 40px 0;
+  
+    .chart__header {
+      padding: 20px 0;
+    }
+  
+    .chart-legend {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+  
+      &__item {
+        border: 0;
+        border-radius: 4px;
+        margin: 0 10px;
+        padding: 9px 9px 9px 0;
+        background-color: rgb(231, 231, 231);
+        span {
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          margin: 0 10px;
+          border-radius: 50%;
+          
+        }
+      }
+    }
+}

@@ -1,0 +1,36 @@
+.cal__container {
+    margin: auto;
+    display: flex;
+    max-width: 300px;
+    padding: 40px 0 20px 0;
+    
+  
+    i:before {
+      width: 3em;
+    }
+  
+    .table {
+      margin: auto;
+      border-radius: 20px;
+    }
+  
+    .cal__box {
+      height: 40px;
+      border: 1px solid $paragraph-color;
+  
+      .cal__min-date,
+      .cal__max-date {
+        width: 100px;
+        text-align: center;
+        padding-left: 0;
+      }
+  
+      .cal__min-date {
+        border-right: 1px solid $paragraph-color;
+      }
+  
+      .cal__icon:hover {
+        background: $btn-hover-color;
+      }
+    }
+  }

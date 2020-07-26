@@ -1,0 +1,12 @@
+.box {
+    background: $white-color;
+    max-width: auto;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px 1px $black-color;
+    .box__header {
+        padding-bottom: 16px;
+        border-bottom: 1px solid $paragraph-color;
+      
+    }
+}

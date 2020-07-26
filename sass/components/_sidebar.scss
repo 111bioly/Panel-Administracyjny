@@ -47,19 +47,12 @@
       color: $white-color;
       font-size: 16px;
       font-weight: $light-font-weight;
-      padding: 20px 20px;
+      padding: 20px 0;
       text-decoration: none;
     }
-
-    img {
-        max-height: 25%;
-        max-width: 25%;
-        padding: 0 15px 0 10px;
-        color: $white-color;
-    }
   
-    img:before {
-        width: 3em;
+    i:before {
+      width: 3em;
     }
   
     a.active {
@@ -87,9 +80,9 @@
         border-top: 1px solid;
         justify-content: space-evenly;
         img {
-            margin-top: 20px;
-            font-size: 50px;
-            border-radius: 50%;
+          margin-top: 20px;
+          font-size: 50px;
+          border-radius: 50%;
         }
         p {
         margin-top: 35px;
